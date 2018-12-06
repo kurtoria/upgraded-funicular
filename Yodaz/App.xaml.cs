@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Yodaz.View;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Yodaz
@@ -11,7 +12,7 @@ namespace Yodaz
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new ContactView());
         }
 
         protected override void OnStart()
