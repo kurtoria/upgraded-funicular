@@ -13,4 +13,11 @@
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
     <PackageReference Include="Xamarin.Auth" Version="1.6.0.4" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="View\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="Helper\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
 </Project>
